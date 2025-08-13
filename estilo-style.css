@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+/*  fontes importadads  */
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", sans-serif;
+    --fonte3: "Sriracha", "cursive";
+/* seleção de fontes facilitada */
+}
+
+* {
+    margin: 0px;
+    padding:0px ;
+    /* configuraçoes gerais zeradas */
+
+}
+
+html, body {
+    font-family: var(--fonte1);
+    min-height: 100%;
+    
+    
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+header > h1 {
+    font-family: var(--fonte2);
+    font-size: 10vw;
+    padding-top: 50px;
+    font-variant: small-caps;
+    /* deixa as letras iniciais das palavras maiores */
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline ;
+
+}
+section {
+    white-space: pre-line;
+    font-family: var(--fonte3);
+    padding: 10vh 0 10vh 30px ;
+    line-height: 2em;
+    font-size: 4vw;
+    
+    
+}
+section > p {
+    padding-bottom: 2em;
+
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 0 0 0 5px;
+    text-shadow: 1px 1px 0px black;
+    
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.447);
+    background-size: cover;
+    
+    
+}
+section#img01 {
+    background-image:url(pacote-d012/imagens/background001.jpg) ;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+section#img02 {
+
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-position: ;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px ;
+}
+    
+    
