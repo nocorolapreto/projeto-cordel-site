@@ -84,6 +84,7 @@ section.imagem {
     color: white;
     box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.447);
     background-size: cover;
+    background-attachment: fixed;
     
     
 }
@@ -91,7 +92,7 @@ section#img01 {
     background-image:url(pacote-d012/imagens/background001.jpg) ;
     background-position: right center;
     background-size: cover;
-    background-attachment: fixed;
+  
     
 }
 
